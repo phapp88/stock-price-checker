@@ -13,8 +13,6 @@ function connectToDb() {
   return dbConnection;
 }
 
-// don't forget attribution
-
 module.exports = function (app) {
 
   app.route('/api/stock-prices')
